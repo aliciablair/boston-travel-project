@@ -71,7 +71,7 @@ footer {
       rgba(39, 32, 68, 0.9)
     ),
     url("../images/boston-footer.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-size: cover;
   padding: 100px 0;
 }
