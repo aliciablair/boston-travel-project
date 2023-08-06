@@ -1,6 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #11101d;
+  background-color: #141010;
 }
 
 .container {
@@ -9,9 +9,32 @@ body {
 }
 
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+
+section.secondary {
+  background-color: #181525;
+}
+
+section.secondary h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+section.secondary h3 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.5;
 }
 
 .grid {
@@ -27,8 +50,43 @@ section {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  background-color: #282435;
+  margin-top: 30px;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.btn {
+  display: block;
+  text-align: center;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(70, 44, 178, 1);
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .img-responsive {
   max-width: 100%;
+}
+
+.text-center {
+  text-align: center;
 }
 
 header {
@@ -36,7 +94,7 @@ header {
     url("../images/boston-hero.png");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   text-align: center;
   padding: 200px 0;
 }
@@ -60,6 +118,7 @@ header h3 {
   line-height: 1.5;
   letter-spacing: 5px;
   margin: 0;
+  text-transform: uppercase;
 }
 
 header a {
@@ -69,7 +128,7 @@ header a {
   letter-spacing: 3px;
   text-align: center;
   text-transform: uppercase;
-  background-color: white;
+  color: rgba(255, 255, 255, 1);
   text-decoration: none;
   color: #272044;
   padding: 16px 32px;
@@ -87,7 +146,7 @@ main h2 {
   line-height: 1.5;
   margin: 0;
   letter-spacing: 5px;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   opacity: 0.3;
   text-transform: uppercase;
 }
@@ -96,8 +155,24 @@ main h3 {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.5;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   margin: 0;
+}
+
+main h4 {
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  line-height: 1;
+  font-size: 24px;
+  margin: 0;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1;
+  color: rgba(255, 255, 255, 1);
 }
 
 main p {
@@ -105,12 +180,12 @@ main p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: white;
+  color: rgba(255, 255, 255, 1);
   opacity: 0.7;
 }
 
 footer {
-  color: white;
+  color: rgba(255, 255, 255, 1);
   background-image: linear-gradient(
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
@@ -144,7 +219,7 @@ footer li {
 }
 
 footer a {
-  color: white;
+  color: rgba(255, 255, 255, 1);
   opacity: 0.7;
   text-decoration: none;
 }
