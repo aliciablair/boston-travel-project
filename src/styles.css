@@ -59,12 +59,22 @@ section.secondary h3 {
   margin-top: 30px;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
 .card-body {
   padding: 30px;
 }
 
 .card-footer {
   padding: 0 30px 30px;
+}
+
+.embed {
+  aspect-ratio: 1 /1;
+  width: 100%;
+  
 }
 
 .btn {
@@ -82,7 +92,7 @@ section.secondary h3 {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
 }
 
 .text-center {
@@ -248,5 +258,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
