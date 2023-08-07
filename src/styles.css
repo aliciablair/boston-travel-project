@@ -91,7 +91,7 @@ section.secondary h3 {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
-    url("../images/boston-hero.png");
+    url("../images/boston-hero-commons.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: rgba(255, 255, 255, 1);
@@ -190,7 +190,7 @@ footer {
       rgba(39, 32, 68, 0.9),
       rgba(39, 32, 68, 0.9)
     ),
-    url("../images/boston-hero-commons.jpg");
+    url("../images/boston-footer.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
